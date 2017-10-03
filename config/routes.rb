@@ -5,19 +5,6 @@ Rails.application.routes.draw do
 
   get 'static_pages/about'
 
-  get 'static_pages/Running'
-
-  get 'static_pages/via'
-
-  get 'static_pages/Spring'
-
-  get 'static_pages/preloader'
-
-  get 'static_pages/in'
-
-  get 'static_pages/process'
-
-  get 'static_pages/40083'
 
   resources :microposts
   resources :users
